@@ -83,3 +83,11 @@ p.lead {
   font-size: 20;
   color: $black;
 }
+
+.btn {
+  background-color: $red;
+}
+
+.btn:hover {
+  background-color: $gray-700;
+}

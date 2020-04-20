@@ -240,17 +240,83 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Portfolio website</h3>
-            <div class="subheading mb-3"><a href="https://github.com/YoriVerbist/Personal-Website"
+            <h3 class="mb-0">Webapplicatie in Flask</h3>
+            <div class="subheading mb-3"><a href="https://github.com/YoriVerbist/CS50/tree/master/Web/finance"
                 target="_blank">Github</a></div>
-            <p>Dit is een website met info over mezelf. Hier vind je mijn persoonlijke- en school projecten. Maar ook
-              meer info over mezelf.</p>
+            <p>Voor een online cursus van Harvard heb ik een webapplicatie in Flask geschreven. Het doel van deze webapp is om aandelen te kunnen kopen en verkopen. Dit zijn natuurlijk geen echte aandelen want daar heb ik het budget niet voor, voor de nodige certificaten te kopen.</p>
+                          <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#stockFlask">
+              Meer info
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="stockFlask" tabindex="-1" role="dialog"
+              aria-labelledby="stockFlask" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-scrollable modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="stockFlask">Webapplicatie in Flask</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Het doel van deze webapplicatie is dat mensen aandelen kunnen kopen en verkopen. Ze kunnen ook zien hoeveel aandelen ze hebben en hoeveel deze waard zijn. Voor deze webapplicatie heb ik ook een SQLite database gebruikt om alle gegevens op te slaan. De moeilijkheid was om de juiste data in de juiste tabellen op te slagen en de juiste data te tonen op de overzichtsschermen.</p>
+                    <p>Hieruit heb ik geleerd hoe belangrijk het is dat je code ordelijk is. Vanaf dat je meer dan 100 lijnen code gaat schrijven kan het moeilijk zijn je eigen code te snappen als deze niet goed geschreven is.</p>
+                    <img src="img/flask.png" alt="Bewijsstuk eisenanalyse" style="width: 40vw;">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">HTML-SCSS</span>
+            <span class="text-primary">Flask</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Applicatie om filters op foto's te zetten</h3>
+            <div class="subheading mb-3"><a href="https://github.com/YoriVerbist/CS50/tree/master/pset4/filter"
+                target="_blank">Github</a></div>
+            <p>Voor een online cursus van Harvard heb ik een applicatie geschreven die filters op foto's kan toepassen. Mogelijke filters: zwart-wit, sepia, horizontaal spiegelen en blurren.</p>
+                          <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#filterC">
+              Meer info
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="filterC" tabindex="-1" role="dialog"
+              aria-labelledby="filterC" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-scrollable modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="filterC">Applicatie om filters op foto's te zetten</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Het doel van dit project is om filters op foto's toe te passen. Momenteel zijn alleen BMP foto's ondersteund. Deze applicatie is volledig geschreven in de taal C. Ik heb veel geleerd hoe afbeelding bestanden inelkaar zitten en hoe filters op foto's worden toegepast. Hieronder kan je een voorbeeld zien van de sepia functie.</p>
+                    <p>Hieruit heb ik geleerd hoe je de bits van een foto kan analyseren om deze dan aan te passen.</p>
+                    <img src="img/filter.png" alt="Bewijsstuk eisenanalyse" style="width: 40vw;">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">C</span>
           </div>
         </div>
       </div>
+      
     </section>
 
     <hr class="m-0">

@@ -88,6 +88,14 @@ p.lead {
   color: #000;
 }
 
+.btn {
+  background-color: #dc3545;
+}
+
+.btn:hover {
+  background-color: #495057;
+}
+
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
