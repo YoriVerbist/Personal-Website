@@ -64,6 +64,12 @@
             <a class="nav-link js-scroll-trigger" href="#about">About me</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#internship"
+              >Internship</a
+            >
+          </li>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#sprojecten"
               >School projects</a
             >
@@ -151,15 +157,48 @@
           </p>
           <p class="lead mb-5">
             My most important characteristic is that I always stay calm. It
-            doesn't matter how much everything goes wrong. When someone critizes
+            doesn't matter how much everything goes wrong. When someone criticizes
             me, I try my best to learn from it. In my free time I spent a lot of
             times on learning new things, these range from AI to math to
-            genetics. I've completed multiple courses on these topics on
+            genetics. I've completed some courses on these topics on
             <a href="https://www.edx.org/" target="_blank">edx.com</a>.
           </p>
           <p class="lead mb-5">My hobbies are ice hockey and reading books.</p>
         </div>
         <img src="./img/me.jpg" alt="Foto van mezelf" class="col-4" />
+      </section>
+
+      <hr class="m-0" />
+
+      <section
+        class="resume-section p-3 p-lg-5 d-flex align-items-center"
+        id="internship"
+      >
+        <div class="w-100">
+          <h2 class="mb-5">Mouth animation</h2>
+          
+          <p class="lead mb-5">
+            What was the goal of this internship? To make a model that generates mouth movements when given a image or video and a audio sample. The model learns the mouth positions for every sound wave. 
+          </p>
+          <p class="lead mb-5">
+            Because there is this fantastic work of <a href="https://github.com/Rudrabha/Wav2Lip" target="_blank">Wav2Lip</a> I decided to build on top of this library instead of starting from scratch. The extensions that I made are: the original model is trained on English data, so I'll be fine-tuning on Dutch data. This data needed to be scraped and pre-processed because there were no existing datasets available. The other extension is to make it possible when you use a group picture that you can choose for which person you want to generate the mouth animation. In the original model it generated them for the first person it detected.
+          </p>
+          <p class="lead mb-5">Below you can find some links to documents that go more in depth.</p>
+          <div class="subheading mb-5">
+
+          <a href="static/internship/Realization.pdf"
+          >Realization document</a
+        >
+        <br>
+        <a href="static/internship/PVA.pdf"
+          >Action plan</a
+        >
+        <br>
+        <a href="static/internship/Reflection.pdf"
+          >Reflection document</a
+        >
+        </div>
+        </div>
       </section>
 
       <hr class="m-0" />
@@ -315,7 +354,7 @@
                   <div class="modal-content">
                     <div class="modal-header">
                       <h5 class="modal-title" id="self_driving_car">
-                        Zelfrijdende auto
+                        Selfdriving Car
                       </h5>
                       <button
                         type="button"
@@ -363,6 +402,87 @@
           </div>
           <hr />
           <div
+          class="
+            resume-item
+            d-flex
+            flex-column flex-md-row
+            justify-content-between
+            mb-5
+          "
+        >
+          <div class="resume-content">
+            <h3 class="mb-0">Smart City</h3>
+            <div class="subheading mb-3">
+              <a
+                href="https://github.com/CedricMeeuwis/Herentals-Vuilbakken-FrontEnd"
+                target="_blank"
+                >Github</a
+              >
+            </div>
+            <p>
+              For my project 4.0 class I worked together with 5 other classmates on a smart city project for the city of Herentals.
+            </p>
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-toggle="modal"
+              data-target="#smart-city"
+            >
+              More info
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="smart-city"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="smart-city"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-scrollable modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="smart-city">Bot-Ross</h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      The goal was to develop an app for Herentals that would make it more efficient to collect all the garbage bins. The team consists of students of different majors. Because of this we had a multidisciplinary team, some worked on the hosting, some on the application, others on the electronics and I worked on the visualizations. We had multiple sensors that measured how full the garbage bins were, how much they weigh and if there was a fire. The data of these sensors was sent to a SQL database. To get the data on the application we used a .NET backend to send it to the Angular frontend.
+                    </p>
+                    <p>
+                      I was responsible for the data visualization of all the garbage bins. These visualizations are made with <a href="https://www.qlik.com/us/products/qlik-sense" target="_blank">Qlik Sense</a>.
+                    </p>
+                    <p>You can see my part from 11:13 to 14:52 in the video bellow.</p>
+                    <iframe width="750" height="500" src="https://www.youtube.com/embed/IrYXcRis1R8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Data Visualization</span>
+          </div>
+        </div>
+        <hr />
+          <div
             class="
               resume-item
               d-flex
@@ -372,7 +492,7 @@
             "
           >
             <div class="resume-content">
-              <h3 class="mb-0">Analysis web application job application training</h3>
+              <h3 class="mb-0">Analysis job application training</h3>
               <div class="subheading mb-3"><a href=""></a></div>
               <p>
                 Every year Thomas More organises a job application training with real companies to make sure the students ready to apply for jobs after their education.
@@ -400,7 +520,7 @@
                   <div class="modal-content">
                     <div class="modal-header">
                       <h5 class="modal-title" id="eisenanalyseModel">
-                        Analysis web application job application training
+                        Analysis job application training
                       </h5>
                       <button
                         type="button"
