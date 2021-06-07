@@ -23,7 +23,7 @@
       href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i"
       rel="stylesheet"
     />
-    <link href="vendor/fontawesome-free-new/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Custom styles for this template -->
     <link href="css/resume.min.css" rel="stylesheet" />
@@ -215,6 +215,93 @@
         <div class="w-100">
           <h2 class="mb-5">Projects</h2>
 
+          <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="static/lion.png" class="card-img-top" alt="NST example" style="height:250px">
+                <div class="card-body">
+                  <h3 class="card-title">Bot-Ross</h3>
+                  <a
+                  href="https://github.com/YoriVerbist/Bot-Ross"
+                  target="_blank"
+                  >Github</a
+                >
+<hr>                  
+                  <p class="card-text">For my Big Data class, we got the assignment to make a
+                    classifier. This project was with a team of two, so my
+                    classmate and I chose to make a painting classifier.</p>
+                    <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#bot-ross"
+              >
+                More info
+              </button>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="static/self_driving.gif" class="card-img-top" alt="self-driving car gif" style="height:250px">
+                <div class="card-body">
+                  <h3 class="card-title">Self-driving Car</h3>
+                  <a
+                  href="https://github.com/SanderBackx1/SelfdrivingCar"
+                  target="_blank"
+                  >Github</a
+                >
+                <hr>
+                  <p class="card-text">For my Artificial Intelligence Project course, I made a
+                    self-driving car with two classmates. Because of the pandemic we
+                    decided to use the game Forza Horizon 4 instead of a physical RC
+                    car.</p>
+                    <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#self_driving_car"
+              >
+                More info
+              </button>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="static/smart-city.jpg" class="card-img-top" alt="..." style="height:250px">
+                <div class="card-body">
+                  <h3 class="card-title">Smart City</h3>
+                  <a
+                href="https://github.com/CedricMeeuwis/Herentals-Vuilbakken-FrontEnd"
+                target="_blank"
+                >Github</a
+              >
+              <hr>
+                  <p class="card-text">For my project 4.0 class I worked together with 5 other classmates on a smart city project for the city of Herentals.</p>
+                  <button
+              type="button"
+              class="btn btn-primary"
+              data-toggle="modal"
+              data-target="#smart-city"
+            >
+              More info
+            </button>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card h-100">
+                <img src="static/crossword.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Card title</h3>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+
           <div
             class="
               resume-item
@@ -233,12 +320,19 @@
                   >Github</a
                 >
               </div>
-              <p>
+              <div class="row">
+                <div class="col-mb-3">
+                  <img src="static/lion.png" alt="" style="width: 250px;">
+                </div>
+                <div class="col-md-6 d-flex flex-column">
+                <p>
                 For my Big Data class, we got the assignment to make a
                 classifier. This project was with a team of two, so my
                 classmate and I chose to make a painting classifier.
               </p>
+              
               <!-- Button trigger modal -->
+              <div class="mt-auto">
               <button
                 type="button"
                 class="btn btn-primary"
@@ -246,7 +340,8 @@
                 data-target="#bot-ross"
               >
                 More info
-              </button>
+              </button></div>
+              </div></div>
 
               <!-- Modal -->
               <div
@@ -306,6 +401,7 @@
                 </div>
               </div>
             </div>
+            
             <div class="resume-date text-md-right">
               <span class="text-primary">Computer Vision</span>
             </div>
@@ -330,6 +426,11 @@
                   >Github</a
                 >
               </div>
+              <div class="row">
+                <div class="col-mb-3">
+                  <img src="static/self-driving.jpg" alt="" style="width: 250px">
+                  </div>
+                  <div class="col-md-6 d-flex flex-column">
               <p>
                 For my Artificial Intelligence Project course, I made a
                 self-driving car with two classmates. Because of the pandemic we
@@ -337,6 +438,7 @@
                 car.
               </p>
               <!-- Button trigger modal -->
+              <div class="mt-auto">
               <button
                 type="button"
                 class="btn btn-primary"
@@ -345,6 +447,8 @@
               >
                 More info
               </button>
+            </div></div>
+          </div>
 
               <!-- Modal -->
               <div
@@ -416,10 +520,17 @@
                 >Github</a
               >
             </div>
+            <div class="row">
+              <div class="col-mb-3">
+                <img src="static/smart-city.jpg" alt="" style="width: 250px;">
+              </div>
+              <div class="col-md-6 d-flex flex-column">
             <p>
               For my project 4.0 class I worked together with 5 other classmates on a smart city project for the city of Herentals.
             </p>
             <!-- Button trigger modal -->
+            <div class="mt-auto">
+
             <button
               type="button"
               class="btn btn-primary"
@@ -428,6 +539,8 @@
             >
               More info
             </button>
+          </div></div>
+        </div>
 
             <!-- Modal -->
             <div
@@ -441,7 +554,7 @@
               <div class="modal-dialog modal-dialog-scrollable modal-lg">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="smart-city">Bot-Ross</h5>
+                    <h5 class="modal-title" id="smart-city">Smart City</h5>
                     <button
                       type="button"
                       class="close"
@@ -491,10 +604,16 @@
             <div class="resume-content">
               <h3 class="mb-0">Analysis job application training</h3>
               <div class="subheading mb-3"><a href=""></a></div>
-              <p>
+              <div class="row">
+                <div class="col-mb-3">
+                  <img src="static/training.jpg" alt="" style="width: 250px;">
+                </div>
+                <div class="col-md-6 d-flex flex-column">
+                                <p>
                 Every year Thomas More organizes a job application training with real companies to make sure the students ready to apply for jobs after their education.
               </p>
               <!-- Button trigger modal -->
+              <div class="mt-auto">
               <button
                 type="button"
                 class="btn btn-primary"
@@ -502,7 +621,7 @@
                 data-target="#eisenanalyseModel"
               >
                 More info
-              </button>
+              </button></div></div></div>
 
               <!-- Modal -->
               <div
@@ -567,10 +686,17 @@
             <div class="resume-content">
               <h3 class="mb-0">Web application staff party</h3>
               <div class="subheading mb-3"><a href=""></a></div>
+              <div class="row">
+                <div class="col-mb-3">
+                  <img src="static/party.jpg" alt="" style="width: 250px;">
+                </div>
+                <div class="col-md-6 d-flex flex-column">
               <p>
                 For my Project PHP course I made a web application where it's possible to organize a staff party. This was done in a team of four students.
               </p>
               <!-- Button trigger modal -->
+              <div class="mt-auto">
+
               <button
                 type="button"
                 class="btn btn-primary"
@@ -578,7 +704,7 @@
                 data-target="#vinylShop"
               >
                 More info
-              </button>
+              </button></div></div></div>
 
               <!-- Modal -->
               <div
@@ -686,10 +812,17 @@
                   >Github</a
                 >
               </div>
+              <div class="row">
+                <div class="col-mb-3">
+                  <img src="static/chatbot.jpg" alt="" style="width: 250px;">
+                </div>
+                <div class="col-md-6 d-flex flex-column">
               <p>
                 A chatbot that answers on questions. Atm it's still 100% CLI.
               </p>
               <!-- Button trigger modal -->
+              <div class="mt-auto">
+
               <button
                 type="button"
                 class="btn btn-primary"
@@ -697,7 +830,7 @@
                 data-target="#questions"
               >
                 More info
-              </button>
+              </button></div></div></div>
 
               <!-- Modal -->
               <div
@@ -744,6 +877,91 @@
             </div>
           </div>
           <hr />
+
+          <div
+          class="
+            resume-item
+            d-flex
+            flex-column flex-md-row
+            justify-content-between
+            mb-5
+          "
+        >
+          <div class="resume-content">
+            <h3 class="mb-0">Inheritance</h3>
+            <div class="subheading mb-3">
+              <a
+                href="https://github.com/YoriVerbist/CS50-AI/tree/master/week2/heredity"
+                target="_blank"
+                >Github</a
+              >
+            </div>
+            <div class="row">
+              <div class="col-mb-3">
+                <img src="static/genetics.jpg" alt="" style="width: 250px;">
+              </div>
+              <div class="col-md-6 d-flex flex-column">
+            <p>
+              An application that calculates the chances you inherit a disease from you parents.
+            </p>
+            <!-- Button trigger modal -->
+            <div class="mt-auto">
+
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-toggle="modal"
+              data-target="#inheritance"
+            >
+              More info
+            </button></div></div></div>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="inheritance"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="inheritance"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-scrollable modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="inheritance">Inheritance</h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      The goal of this AI is to model all relationships inside a family to form a <a href="https://www.wikiwand.com/en/Bayesian_network" >Bayesian Network</a>. When you have this network and have the probabilities of the disease you can calculate the probability that someone inherits a disease from their parents.
+                    </p>
+                    <img src="static/gene_network.png" alt="Bayesian Network" width="550px">
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Python</span>
+          </div>
+        </div>
+        <hr />
           <div
             class="
               resume-item
@@ -762,10 +980,17 @@
                   >Github</a
                 >
               </div>
+              <div class="row">
+                <div class="col-mb-3">
+                  <img src="static/nim.jpg" alt="" style="width: 250px;">
+                </div>
+                <div class="col-md-6 d-flex flex-column">
               <p>
                 A NIM AI that learns how to play with <a href="https://www.wikiwand.com/en/Reinforcement_learning" target="_blank" rel="noopener noreferrer">reinforcement learning</a>.
               </p>
               <!-- Button trigger modal -->
+              <div class="mt-auto">
+
               <button
                 type="button"
                 class="btn btn-primary"
@@ -773,7 +998,7 @@
                 data-target="#nim"
               >
                 More info
-              </button>
+              </button></div></div></div>
 
               <!-- Modal -->
               <div
@@ -840,10 +1065,17 @@
                   >Github</a
                 >
               </div>
+              <div class="row">
+                <div class="col-mb-3">
+                  <img src="static/crossword.jpg" alt="" style="width: 250px;">
+                </div>
+                <div class="col-md-6 d-flex flex-column">
               <p>
                 A crossword AI using the <a href="https://www.wikiwand.com/en/AC-3_algorithm" target="_blank" rel="noopener noreferrer">AC-3 algorithm</a>.
               </p>
               <!-- Button trigger modal -->
+              <div class="mt-auto">
+
               <button
                 type="button"
                 class="btn btn-primary"
@@ -851,7 +1083,7 @@
                 data-target="#crossword"
               >
                 More info
-              </button>
+              </button></div></div></div>
 
               <!-- Modal -->
               <div
@@ -917,10 +1149,17 @@
                   >Github</a
                 >
               </div>
+              <div class="row">
+                <div class="col-mb-3">
+                  <img src="static/logic.jpg" alt="" style="width: 250px;">
+                </div>
+                <div class="col-md-6 d-flex flex-column">
               <p>
                 A minesweeper AI that uses logic to solve it.
               </p>
               <!-- Button trigger modal -->
+              <div class="mt-auto">
+
               <button
                 type="button"
                 class="btn btn-primary"
@@ -928,7 +1167,7 @@
                 data-target="#minesweeper"
               >
                 More info
-              </button>
+              </button></div></div></div>
 
               <!-- Modal -->
               <div
@@ -999,10 +1238,17 @@
                   >Github</a
                 >
               </div>
+              <div class="row">
+                <div class="col-mb-3">
+                  <img src="static/minimax.png" alt="" style="width: 250px;">
+                </div>
+                <div class="col-md-6 d-flex flex-column">
               <p>
                 A tic-tac-toe AI that uses the <a href="https://www.wikiwand.com/en/Minimax" target="_blank">minimax</a> algorithm.
               </p>
               <!-- Button trigger modal -->
+              <div class="mt-auto">
+
               <button
                 type="button"
                 class="btn btn-primary"
@@ -1010,7 +1256,7 @@
                 data-target="#ticTacToe"
               >
                 More info
-              </button>
+              </button></div></div></div>
 
               <!-- Modal -->
               <div
@@ -1079,10 +1325,17 @@
                   >Github</a
                 >
               </div>
+              <div class="row">
+                <div class="col-mb-3">
+                  <img src="static/stocks.jpg" alt="" style="width: 250px;">
+                </div>
+                <div class="col-md-6 d-flex flex-column">
               <p>
                 A web application to buy and sell stocks written in Flask. This is a fictive application.
               </p>
               <!-- Button trigger modal -->
+              <div class="mt-auto">
+
               <button
                 type="button"
                 class="btn btn-primary"
@@ -1090,7 +1343,7 @@
                 data-target="#stockFlask"
               >
                 More info
-              </button>
+              </button></div></div></div>
 
               <!-- Modal -->
               <div
@@ -1162,10 +1415,17 @@
                   >Github</a
                 >
               </div>
+              <div class="row">
+                <div class="col-mb-3">
+                  <img src="static/filter.jpeg" alt="" style="width: 250px;">
+                </div>
+                <div class="col-md-6 d-flex flex-column">
               <p>
                 A CLI application to put filters on images. It includes a greyscale, sepia, blur and reflect horizontal filters.
               </p>
               <!-- Button trigger modal -->
+              <div class="mt-auto">
+
               <button
                 type="button"
                 class="btn btn-primary"
@@ -1173,7 +1433,7 @@
                 data-target="#filterC"
               >
                 More info
-              </button>
+              </button></div></div></div>
 
               <!-- Modal -->
               <div
@@ -1245,10 +1505,17 @@
                   >Github</a
                 >
               </div>
+              <div class="row">
+                <div class="col-mb-3">
+                  <img src="static/spelling.jpg" alt="" style="width: 250px;">
+                </div>
+                <div class="col-md-6 d-flex flex-column">
               <p>
                 A spellchecker that also checks how long it took to check all the words.
               </p>
               <!-- Button trigger modal -->
+              <div class="mt-auto">
+
               <button
                 type="button"
                 class="btn btn-primary"
@@ -1256,7 +1523,7 @@
                 data-target="#spellingC"
               >
                 More info
-              </button>
+              </button></div></div></div>
 
               <!-- Modal -->
               <div
@@ -1548,6 +1815,7 @@
                   <p>
                     I participated in the Hack The Future hackathon with a friend of mine (it was in teams of two). We competed in the Deep Learning & NLP challenge. The challenge got coached by <a href="https://brainjar.ai/" target="_blank">Brainjar</a> the same company where I did my internship. The assignment was to detect trolls in a dataset of Reddit comments. The comments were either fantasy or programming related. We used FastAI to make two classifiers. One to know to which category the comment belonged and one to predict the sentiment of the comment. If the comment had a lot of downvotes we knew it was a negative comment.
                   </p>
+                  <img src="static/htf.png" alt="Hack The Future image" width="500px">
                 </div>
                 <div class="modal-footer">
                   <button
@@ -1588,7 +1856,7 @@
                 </div>
                 <div class="modal-body">
                   <p>
-                    I and four friends participated in the AtOnce hackathon. The goal was to localize a patient zero when there's a pandemic out break. We decided to write a algorithm that backtracks to see when and where the virus first started to spread.
+                    I and four friends participated in the AtOnce hackathon. The goal was to localize a patient zero when there's a pandemic outbreak. We decided to write a algorithm that backtracks to see when and where the virus first started to spread.
                   </p>
                   <a
                     href="https://github.com/YoriVerbist/Apocalytics"
