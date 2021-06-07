@@ -23,7 +23,7 @@
       href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i"
       rel="stylesheet"
     />
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
+    <link href="vendor/fontawesome-free-new/css/all.min.css" rel="stylesheet" />
 
     <!-- Custom styles for this template -->
     <link href="css/resume.min.css" rel="stylesheet" />
@@ -71,7 +71,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#sprojecten"
-              >School projects</a
+              >Projects</a
             >
           </li>
           <li class="nav-item">
@@ -87,7 +87,12 @@
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#awards"
-              >Prices & certificates</a
+              >Awards</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="static/CV_Yori_Verbist.pdf"
+              >My CV</a
             >
           </li>
         </ul>
@@ -142,8 +147,8 @@
               <i class="fab fa-twitter"></i>
             </a>
             <br />
-            <a href="./CV_Verbist_Yori.pdf" download class="CV"
-              >Click here to download my resume.</a
+            <a href="static/CV_Yori_Verbist.pdf" download class="CV"
+              >Download my resume.</a
             >
           </div>
           <p class="lead mb-5">
@@ -151,15 +156,15 @@
             interested in computers and mathematics, so it was an easy choice.
           </p>
           <p class="lead mb-5">
-            After this education I'm going for an masters in applied computer
-            science. This is because I'm more interested in the theoretical part
+            After my Bachelors degree I'm going for a Masters in applied computer
+            science. Because I want to learn more about the theoretical part
             of artificial intelligence.
           </p>
           <p class="lead mb-5">
             My most important characteristic is that I always stay calm. It
             doesn't matter how much everything goes wrong. When someone criticizes
             me, I try my best to learn from it. In my free time I spent a lot of
-            times on learning new things, these range from AI to math to
+            times on learning new things, these range from AI to mathematics to
             genetics. I've completed some courses on these topics on
             <a href="https://www.edx.org/" target="_blank">edx.com</a>.
           </p>
@@ -178,7 +183,7 @@
           <h2 class="mb-5">Mouth animation</h2>
           
           <p class="lead mb-5">
-            What was the goal of this internship? To make a model that generates mouth movements when given a image or video and a audio sample. The model learns the mouth positions for every sound wave. 
+            What was the goal of this internship? To make a model that generates mouth movements when given an image or video and an audio sample. The model learns the mouth positions for every sound wave. 
           </p>
           <p class="lead mb-5">
             Because there is this fantastic work of <a href="https://github.com/Rudrabha/Wav2Lip" target="_blank">Wav2Lip</a> I decided to build on top of this library instead of starting from scratch. The extensions that I made are: the original model is trained on English data, so I'll be fine-tuning on Dutch data. This data needed to be scraped and pre-processed because there were no existing datasets available. The other extension is to make it possible when you use a group picture that you can choose for which person you want to generate the mouth animation. In the original model it generated them for the first person it detected.
@@ -197,7 +202,7 @@
         <a href="static/internship/Reflection.pdf"
           >Reflection document</a
         >
-        </div>
+
         </div>
       </section>
 
@@ -208,7 +213,7 @@
         id="sprojecten"
       >
         <div class="w-100">
-          <h2 class="mb-5">School projects</h2>
+          <h2 class="mb-5">Projects</h2>
 
           <div
             class="
@@ -229,9 +234,9 @@
                 >
               </div>
               <p>
-                For my Big Data class we got the assignment to make a
-                classifier. This project was done in a team of two, so my
-                classmate and me chose to make a painting classifier.
+                For my Big Data class, we got the assignment to make a
+                classifier. This project was with a team of two, so my
+                classmate and I chose to make a painting classifier.
               </p>
               <!-- Button trigger modal -->
               <button
@@ -276,8 +281,8 @@
                         >
                           Neural Style Transfer</a
                         >
-                        on top of it. A NST makes it possible to transfer the
-                        style of the painiting to another image. The application
+                        (NST) on top of it. A NST makes it possible to transfer the
+                        style of the painting to another image. The application
                         (only the classifier part) is hosted on DigitalOcean.
                       </p>
                       <p>
@@ -317,7 +322,7 @@
             "
           >
             <div class="resume-content">
-              <h3 class="mb-0">Self driving Car</h3>
+              <h3 class="mb-0">Self-driving Car</h3>
               <div class="subheading mb-3">
                 <a
                   href="https://github.com/SanderBackx1/SelfdrivingCar"
@@ -326,8 +331,8 @@
                 >
               </div>
               <p>
-                For my Artifical Intelligence project course I made a
-                self driving car with two classmates. Because of the pandemic we
+                For my Artificial Intelligence Project course, I made a
+                self-driving car with two classmates. Because of the pandemic we
                 decided to use the game Forza Horizon 4 instead of a physical RC
                 car.
               </p>
@@ -354,7 +359,7 @@
                   <div class="modal-content">
                     <div class="modal-header">
                       <h5 class="modal-title" id="self_driving_car">
-                        Self driving Car
+                        Self-driving Car
                       </h5>
                       <button
                         type="button"
@@ -367,11 +372,13 @@
                     </div>
                     <div class="modal-body">
                       <p>
-                        The goal of this project was to use the learned techniques from the lessons. We decided to use FastAI and Python. First we analyzed the problem to get a better understanding how we were going to implementing this AI. To collect data that we could use to train we played the game and saved a screenshot of the screen and the input of the controller every second. Since our data existed of an image and the controller input, who chose to use regression. The AI predicted the controller input itself when given a input frame.
+                        The goal of this project was to use the learned techniques from the lessons. We decided to use FastAI and Python. First, we analyzed the problem to get a better understanding how we were going to implementing this AI. To collect data that we could use to train we played the game and saved a screenshot of the screen and the input of the controller every second. Since our data existed of an image and the controller input, who chose to use regression. The AI predicted the controller input itself when given an input frame.
                       </p>
                       <p>
-                        I was responsible to check the data and make sure there weren't to many anomalies.
+                        I was responsible to check the data and make sure there weren't too many anomalies.
                       </p>
+                      <p>Below you can see a clip of the final product.</p>
+                      <img src="static/self_driving.gif" alt="self-driving car gif">
                     </div>
                     <div class="modal-footer">
                       <button
@@ -387,7 +394,7 @@
               </div>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">Aritificial Intelligence</span>
+              <span class="text-primary">Artificial Intelligence</span>
             </div>
           </div>
           <hr />
@@ -523,7 +530,7 @@
                     </div>
                     <div class="modal-body">
                       <p>
-                        The goal of this report is to give more informaion about the assignment to the team that need to program it in the next semester. I was responsible for the ERD-diagrams (seen below). We also made wireframes for every usecase in the project so the next team doesn't need to think about it anymore and can start programming. During this project we had some meetings with the client (another teacher then the one of this course). This was useful to make sure we weren't going in the wrong direction.
+                        The goal of this report is to give more information about the assignment to the team that need to program it in the next semester. I was responsible for the ERD-diagrams (see below). We also made wireframes for every use case in the project so the next team doesn't need to think about it anymore and can start programming. During this project we had some meetings with the client (another teacher then the one of this course). This was useful to make sure we weren't going in the wrong direction.
                       </p>
                       <p>
                         I learned how important it is to have as much meetings as possible with the client to make sure you have the same vision as they do.
@@ -561,7 +568,7 @@
               <h3 class="mb-0">Web application staff party</h3>
               <div class="subheading mb-3"><a href=""></a></div>
               <p>
-                For my Project PHP course I made a web application where it's possible to organise a staff party. This was done in a team of four students
+                For my Project PHP course I made a web application where it's possible to organize a staff party. This was done in a team of four students.
               </p>
               <!-- Button trigger modal -->
               <button
@@ -599,7 +606,7 @@
                     </div>
                     <div class="modal-body">
                       <p>
-                        The goal of this project is to make it easier to organize staff praties. I made it possible to easily add activities to do during the day. It's also possible to invite guests by e-mail. The guests get an e-mail with a personal link with which they can register for the party. Here they can select which activity they prefer and in which parts they want to participate. I had multiple meetings with the client to make sure the functionalities and designs were implemented as expected.
+                        The goal of this project is to make it easier to organize staff parties. I made it possible to easily add activities to do during the day. It's also possible to invite guests by e-mail. The guests get an e-mail with a personal link with which they can register for the party. Here they can select which activity they prefer and in which parts they want to participate. I had multiple meetings with the client to make sure the functionalities and designs were implemented as expected.
                       </p>
                       <p>
                         I learned how important it is to have a good team. It was basically a solo project for me since my teammates didn't do anything. They also didn't communicate to me if they were planning to help with anything or not.
@@ -716,7 +723,7 @@
                     </div>
                     <div class="modal-body">
                       <p>
-                        The goal of this AI is to answer questions. It learns these answers by looking trough multiple documents and searching the answer in them. When it gets a question it which documents it can best check to get the answer. This is done trough <a href="https://www.wikiwand.com/en/Tf%E2%80%93idf" target="_blank">tf-idf.</a>
+                        The goal of this AI is to answer questions. It learns these answers by looking through multiple documents and searching the answer in them. When it gets a question it which documents it can best check to get the answer. This is done with: <a href="https://www.wikiwand.com/en/Tf%E2%80%93idf" target="_blank">tf-idf.</a>
                       </p>
                     </div>
                     <div class="modal-footer">
@@ -756,7 +763,7 @@
                 >
               </div>
               <p>
-                A NIM AI that uses learns how to play trough <a href="https://www.wikiwand.com/en/Reinforcement_learning" target="_blank" rel="noopener noreferrer">reinforcement learning</a>.
+                A NIM AI that learns how to play with <a href="https://www.wikiwand.com/en/Reinforcement_learning" target="_blank" rel="noopener noreferrer">reinforcement learning</a>.
               </p>
               <!-- Button trigger modal -->
               <button
@@ -792,14 +799,7 @@
                     </div>
                     <div class="modal-body">
                       <p>
-                        Het doel van deze AI is het implementeren van
-                        Q-learning. Dit algoritme speelt veel spellen tegen
-                        zichzelf en update elke keer de waarden van de Q-table.
-                        Dit zorgt ervoor dat de AI over tijd beter en beter
-                        wordt. Dit heeft als effect dat na een bepaalde tijd het
-                        onmogelijk is om nog te winnen van de AI omdat hij zo
-                        goed is geworden.
-                        The goal is to implement <a href="https://www.wikiwand.com/en/Q-learning" target="_blank">Q-learning</a>. The algorithm plays a lot of games against itself and updates everytime the values of a Q-table. Because of this the AI gets better over time. After some time it's impossible to win against the AI as a human because it got so good.
+                        The goal is to implement the <a href="https://www.wikiwand.com/en/Q-learning" target="_blank">Q-learning</a> algorithm. The algorithm plays a lot of games against itself and updates every time the values of a Q-table. Because of this the AI gets better over time. After some time, it's impossible to win against the AI as a human because it got so good.
                       </p>
                       <p>A little demonstration:</p>
                       <embed src="static/nim.mp4" width="700" height="500" type="">
@@ -818,7 +818,7 @@
               </div>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">RL</span>
+              <span class="text-primary">Reinforcement Learning</span>
             </div>
           </div>
           <hr />
@@ -877,7 +877,7 @@
                     </div>
                     <div class="modal-body">
                       <p>
-                        The goal of this AI is to solve a crossword using the AC-3 algorithm. This algorithm checks if every node in the network is arc consitent. It backtracks all the nodes to check that every node has the correct word in it and they are all different.
+                        The goal of this AI is to solve a crossword using the AC-3 algorithm. This algorithm checks if every node in the network is arc consistent. It backtracks all the nodes to check that every node has the correct word in it, and they are all different.
                       </p>
                       <img src="static/crossword.png" alt="" height="400px">
                     </div>
@@ -956,7 +956,7 @@
                     </div>
                     <div class="modal-body">
                       <p>
-                        The goal is to implement an AI that uses knowledge representation and reasoning. This means that the AI 'knows' the current state of the world and solves complex problems because of this informaion.
+                        The goal is to implement an AI that uses knowledge representation and reasoning. This means that the AI 'knows' the current state of the world and solves complex problems because of this information.
                       </p>
                       <p>
                         A little demonstration:
@@ -1118,7 +1118,7 @@
                     </div>
                     <div class="modal-body">
                       <p>
-                        The goal is that people can buy and sell stocks. They can see how much their stocks are worth at the moment. It uses a SQLite database to save everything.
+                        The goal is that people can buy and sell stocks. They can see how much their stocks are worth now. It uses a SQLite database to save everything. To fetch the stock data, I used the <a href="https://www.iexcloud.io/" target="_blank">IEX cloud API</a>.
                       </p>
                       <img
                         src="img/flask.png"
@@ -1271,7 +1271,7 @@
                   <div class="modal-content">
                     <div class="modal-header">
                       <h5 class="modal-title" id="spellingC">
-                        Applicatie om spelfouten te vinden
+                        Spellchecker
                       </h5>
                       <button
                         type="button"
@@ -1342,6 +1342,35 @@
               <span class="text-primary">February 2018 - Now</span>
             </div>
           </div>
+          <div class="w-100">
+            <h2 class="mb-5">Certificates</h2>
+            <ul class="fa-ul mb-0">
+              <li>
+                <i class="fa-li fa fa-graduation-cap text-warning"></i>
+                <a
+                  href="https://certificates.cs50.io/3eed0a88-9ac4-4616-b2e8-355fd4d4ce42.pdf?size=letter"
+                  target="_blank"
+                  >CS50</a
+                >
+              </li>
+              <li>
+                <i class="fa-li fa fa-graduation-cap text-warning"></i>
+                <a
+                  href="https://certificates.cs50.io/5fbec60c-ea0d-4114-86bd-33ec23e776de.png?size=letter"
+                  target="_blank"
+                  >CS50 - Introduction to Artificial Intelligence with Python</a
+                >
+              </li>
+              <li>
+                <i class="fa-li fa fa-graduation-cap text-warning"></i>
+                <a
+                  href="https://www.edx.org/course/wiskunde-voor-startende-studenten-2?index=product&queryID=149d4f18ab66a47350d6e234f0865e06&position=1"
+                  target="_blank"
+                  >Wiskunde voor (startende) studenten</a
+                >
+              </li>
+            </ul>
+  
         </div>
       </section>
 
@@ -1354,25 +1383,25 @@
         <div class="w-100">
           <h2 class="mb-5">Skills</h2>
 
-          <div class="subheading mb-3">Programming languesges</div>
+          <div class="subheading mb-3">Programming languages</div>
           <h3>Python</h3>
           <div class="progress">
             <div
-              class="progress-bar"
+              class="progress-bar bg-danger"
               role="progressbar"
-              style="width: 90%"
-              aria-valuenow="90"
+              style="width: 80%"
+              aria-valuenow="80"
               aria-valuemin="0"
               aria-valuemax="100"
             >
-              90%
+              80%
             </div>
           </div>
           <br />
           <h3>C/C++</h3>
           <div class="progress">
             <div
-              class="progress-bar"
+              class="progress-bar bg-danger"
               role="progressbar"
               style="width: 75%"
               aria-valuenow="75"
@@ -1386,7 +1415,7 @@
           <h3>PHP</h3>
           <div class="progress">
             <div
-              class="progress-bar"
+              class="progress-bar bg-danger"
               role="progressbar"
               style="width: 70%"
               aria-valuenow="70"
@@ -1400,7 +1429,7 @@
           <h3>R</h3>
           <div class="progress">
             <div
-              class="progress-bar"
+              class="progress-bar bg-danger"
               role="progressbar"
               style="width: 70%"
               aria-valuenow="70"
@@ -1414,7 +1443,7 @@
           <h3>Java</h3>
           <div class="progress">
             <div
-              class="progress-bar"
+              class="progress-bar bg-danger"
               role="progressbar"
               style="width: 70%"
               aria-valuenow="70"
@@ -1428,7 +1457,7 @@
           <h3>C#</h3>
           <div class="progress">
             <div
-              class="progress-bar"
+              class="progress-bar bg-danger"
               role="progressbar"
               style="width: 50%"
               aria-valuenow="50"
@@ -1444,27 +1473,23 @@
           <div class="subheading mb-3">Frameworks</div>
           <ul class="fa-ul mb-0">
             <li>
-              <i class="fa-li fa fa-check"></i>
+              <i class="fa-li fab fa-python"></i>
               FastAI
             </li>
             <li>
-              <i class="fa-li fa fa-check"></i>
+              <i class="fa-li fab fa-python"></i>
               PyTorch
             </li>
             <li>
-              <i class="fa-li fa fa-check"></i>
+              <i class="fa-li fab fa-python"></i>
               Flask
             </li>
             <li>
-              <i class="fa-li fa fa-check"></i>
+              <i class="fa-li fab fa-laravel"></i>
               Laravel
             </li>
             <li>
-              <i class="fa-li fa fa-check"></i>
-              Qlik
-            </li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
+              <i class="fa-li fab fa-java"></i>
               Spring
             </li>
           </ul>
@@ -1478,7 +1503,7 @@
         id="awards"
       >
         <div class="w-100">
-          <h2 class="mb-5">Prices &amp; Certificates</h2>
+          <h2 class="mb-5">Awards</h2>
           <ul class="fa-ul mb-0">
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
@@ -1493,22 +1518,7 @@
                 >Top 5 - AtOnce hackathon</a
               >
             </li>
-            <li>
-              <i class="fa-li fa fa-graduation-cap text-warning"></i>
-              <a
-                href="https://certificates.cs50.io/3eed0a88-9ac4-4616-b2e8-355fd4d4ce42.pdf?size=letter"
-                target="_blank"
-                >CS50</a
-              >
-            </li>
-            <li>
-              <i class="fa-li fa fa-graduation-cap text-warning"></i>
-              <a
-                href="https://certificates.cs50.io/5fbec60c-ea0d-4114-86bd-33ec23e776de.png?size=letter"
-                target="_blank"
-                >CS50 - Introduction to Artificial Intelligence with Python</a
-              >
-            </li>
+          
           </ul>
 
           <div
