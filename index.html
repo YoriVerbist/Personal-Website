@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <meta name="description" content="Welkom op mijn persoonlijke website" />
+    <meta name="description" content="Welcome on my personal website" />
     <meta name="author" content="Yori Verbist" />
 
     <title>Yori Verbist</title>
@@ -157,18 +157,17 @@
           </p>
           <p class="lead mb-5">
             After my Bachelors degree I'm going for a Masters in applied computer
-            science. Because I want to learn more about the theoretical part
+            science because I want to learn more about the theoretical part
             of artificial intelligence.
           </p>
           <p class="lead mb-5">
             My most important characteristic is that I always stay calm. It
-            doesn't matter how much everything goes wrong. When someone criticizes
-            me, I try my best to learn from it. In my free time I spent a lot of
-            times on learning new things, these range from AI to mathematics to
-            genetics. I've completed some courses on these topics on
-            <a href="https://www.edx.org/" target="_blank">edx.com</a>.
+            doesn't matter if everything goes wrong. When someone criticizes
+            me, I try my best to learn from it.
           </p>
-          <p class="lead mb-5">My hobbies are ice hockey and reading books.</p>
+          <p class="lead mb-5">My hobbies are ice hockey and reading books and learning new things. These range from AI to mathematics to
+            genetics. I've completed some courses on these topics on
+            <a href="https://www.edx.org/" target="_blank">edx.com</a>.</p>
         </div>
         <img src="./img/me.jpg" alt="Foto van mezelf" class="col-4" />
       </section>
@@ -186,7 +185,7 @@
             What was the goal of this internship? To make a model that generates mouth movements when given an image or video and an audio sample. The model learns the mouth positions for every sound wave. 
           </p>
           <p class="lead mb-5">
-            Because there is this fantastic work of <a href="https://github.com/Rudrabha/Wav2Lip" target="_blank">Wav2Lip</a> I decided to build on top of this library instead of starting from scratch. The extensions that I made are: the original model is trained on English data, so I'll be fine-tuning on Dutch data. This data needed to be scraped and pre-processed because there were no existing datasets available. The other extension is to make it possible when you use a group picture that you can choose for which person you want to generate the mouth animation. In the original model it generated them for the first person it detected.
+            Instead of starting from scratch, I decided to extend upon the library <a href="https://github.com/Rudrabha/Wav2Lip" target="_blank">Wav2Lip</a> since they have already done fantastic work. The extensions that I made are: the original model is trained on English data, so I'll be fine-tuning on Dutch data. This data needed to be scraped and pre-processed because there were no existing datasets available. The other extension is to select the correct face when you upload a group picture. In the original model it generates the mouth movement of the first face it detects in the picture.
           </p>
           <p class="lead mb-5">Below you can find some links to documents that go more in depth.</p>
           <div class="subheading mb-5">
@@ -235,7 +234,7 @@
               </div>
               <div class="row">
                 <div class="col-mb-3">
-                  <img src="static/lion.png" alt="" style="width: 250px;">
+                  <img src="static/lion.png" alt="NST example" style="width: 250px;">
                 </div>
                 <div class="col-md-6 d-flex flex-column">
                 <p>
@@ -281,7 +280,7 @@
                     <div class="modal-body">
                       <p>
                         The goal was to create a classifier. We choose to make a
-                        painings classifier because there are a lot of
+                        painting classifier because there are a lot of
                         extensions possible. We made a
                         <a
                           href="http://www.wikiwand.com/en/Neural_Style_Transfer"
@@ -289,13 +288,13 @@
                         >
                           Neural Style Transfer</a
                         >
-                        (NST) on top of it. A NST makes it possible to transfer the
-                        style of the painting to another image. The application
-                        (only the classifier part) is hosted on DigitalOcean.
+                        (NST) as an extension. A NST makes it possible to transfer the
+                        style of a painting to another image. The application
+                        (only the classifier) is hosted on DigitalOcean.
                       </p>
                       <p>
                         I was responsible for the NST part and hosting the
-                        classifier.
+                        application.
                       </p>
                       <a href="http://128.199.63.207:5000/" target="_blank"
                         >Link to classifier</a
@@ -341,11 +340,11 @@
               </div>
               <div class="row">
                 <div class="col-mb-3">
-                  <img src="static/self-driving.jpg" alt="" style="width: 250px">
+                  <img src="static/self-driving.jpg" alt="A car from forza horizon 4" style="width: 250px">
                   </div>
                   <div class="col-md-6 d-flex flex-column">
               <p>
-                For my Artificial Intelligence Project course, I made a
+                For my Artificial Intelligence Project class, I made a
                 self-driving car with two classmates. Because of the pandemic we
                 decided to use the game Forza Horizon 4 instead of a physical RC
                 car.
@@ -389,10 +388,10 @@
                     </div>
                     <div class="modal-body">
                       <p>
-                        The goal of this project was to use the learned techniques from the lessons. We decided to use FastAI and Python. First, we analyzed the problem to get a better understanding how we were going to implementing this AI. To collect data that we could use to train we played the game and saved a screenshot of the screen and the input of the controller every second. Since our data existed of an image and the controller input, who chose to use regression. The AI predicted the controller input itself when given an input frame.
+                        The goal of this project was to use the learned techniques from the class. We decided to use fast.ai and OpenCV. First, we analyzed the problem to get a better understanding how we were going to implementing this AI. To collect data that we could use to train we played the game and saved a screenshot of the screen and the input of the controller every second. Since our data existed of an image and the controller input, we chose to use regression. The AI predicted the controller input when given an input frame.
                       </p>
                       <p>
-                        I was responsible to check the data and make sure there weren't too many anomalies.
+                        I was responsible to collect and check the data to make sure there weren't too many anomalies.
                       </p>
                       <p>Below you can see a clip of the final product.</p>
                       <img src="static/self_driving.gif" alt="self-driving car gif">
@@ -435,11 +434,11 @@
             </div>
             <div class="row">
               <div class="col-mb-3">
-                <img src="static/smart-city.jpg" alt="" style="width: 250px;">
+                <img src="static/smart-city.jpg" alt="Picture of a smart city" style="width: 250px;">
               </div>
               <div class="col-md-6 d-flex flex-column">
             <p>
-              For my project 4.0 class I worked together with 5 other classmates on a smart city project for the city of Herentals.
+              For my project 4.0 class I worked together with five other classmates on a smart city project for the city of Herentals.
             </p>
             <!-- Button trigger modal -->
             <div class="mt-auto">
@@ -519,11 +518,11 @@
               <div class="subheading mb-3"><a href=""></a></div>
               <div class="row">
                 <div class="col-mb-3">
-                  <img src="static/training.jpg" alt="" style="width: 250px;">
+                  <img src="static/training.jpg" alt="Picture of people in class" style="width: 250px;">
                 </div>
                 <div class="col-md-6 d-flex flex-column">
                                 <p>
-                Every year Thomas More organizes a job application training with real companies to make sure the students ready to apply for jobs after their education.
+                Every year Thomas More organizes a job application training with real companies to make sure the students are ready to apply for jobs after their education.
               </p>
               <!-- Button trigger modal -->
               <div class="mt-auto">
@@ -601,11 +600,11 @@
               <div class="subheading mb-3"><a href=""></a></div>
               <div class="row">
                 <div class="col-mb-3">
-                  <img src="static/party.jpg" alt="" style="width: 250px;">
+                  <img src="static/party.jpg" alt="People partying" style="width: 250px;">
                 </div>
                 <div class="col-md-6 d-flex flex-column">
               <p>
-                For my Project PHP course I made a web application where it's possible to organize a staff party. This was done in a team of four students.
+                For my Project PHP class I made a web application where it's possible to organize a staff party. This was done in a team of four students.
               </p>
               <!-- Button trigger modal -->
               <div class="mt-auto">
@@ -648,7 +647,7 @@
                         The goal of this project is to make it easier to organize staff parties. I made it possible to easily add activities to do during the day. It's also possible to invite guests by e-mail. The guests get an e-mail with a personal link with which they can register for the party. Here they can select which activity they prefer and in which parts they want to participate. I had multiple meetings with the client to make sure the functionalities and designs were implemented as expected.
                       </p>
                       <p>
-                        I learned how important it is to have a good team. It was basically a solo project for me since my teammates didn't do anything. They also didn't communicate to me if they were planning to help with anything or not.
+                        I learned how important it is to communicate well within a team. It was basically a solo project for me since my teammates didn't do anything. They also didn't communicate to me if they were planning to help.
                       </p>
                       <p>
                         Website:
@@ -667,11 +666,11 @@
                         </thead>
                         <tbody>
                           <tr>
-                            <th scope="row">user</th>
+                            <th scope="row">user@example.com</th>
                             <td>user1234</td>
                           </tr>
                           <tr>
-                            <th scope="row">admin</th>
+                            <th scope="row">admin@example.com</th>
                             <td>admin1234</td>
                           </tr>
                         </tbody>
@@ -727,7 +726,7 @@
               </div>
               <div class="row">
                 <div class="col-mb-3">
-                  <img src="static/chatbot.jpg" alt="" style="width: 250px;">
+                  <img src="static/chatbot.jpg" alt="Chatbot image" style="width: 250px;">
                 </div>
                 <div class="col-md-6 d-flex flex-column">
               <p>
@@ -771,6 +770,7 @@
                       <p>
                         The goal of this AI is to answer questions. It learns these answers by looking through multiple documents and searching the answer in them. When it gets a question it which documents it can best check to get the answer. This is done with: <a href="https://www.wikiwand.com/en/Tf%E2%80%93idf" target="_blank">tf-idf.</a>
                       </p>
+                      <img src="static/questions.png" alt="Chatbot example" width="700px">
                     </div>
                     <div class="modal-footer">
                       <button
@@ -811,7 +811,7 @@
             </div>
             <div class="row">
               <div class="col-mb-3">
-                <img src="static/genetics.jpg" alt="" style="width: 250px;">
+                <img src="static/genetics.jpg" alt="Picture of DNA" style="width: 250px;">
               </div>
               <div class="col-md-6 d-flex flex-column">
             <p>
@@ -895,7 +895,7 @@
               </div>
               <div class="row">
                 <div class="col-mb-3">
-                  <img src="static/nim.jpg" alt="" style="width: 250px;">
+                  <img src="static/nim.jpg" alt="Picture of AI" style="width: 250px;">
                 </div>
                 <div class="col-md-6 d-flex flex-column">
               <p>
@@ -980,7 +980,7 @@
               </div>
               <div class="row">
                 <div class="col-mb-3">
-                  <img src="static/crossword.jpg" alt="" style="width: 250px;">
+                  <img src="static/crossword.jpg" alt="Completing a crossword" style="width: 250px;">
                 </div>
                 <div class="col-md-6 d-flex flex-column">
               <p>
@@ -1024,7 +1024,7 @@
                       <p>
                         The goal of this AI is to solve a crossword using the AC-3 algorithm. This algorithm checks if every node in the network is arc consistent. It backtracks all the nodes to check that every node has the correct word in it, and they are all different.
                       </p>
-                      <img src="static/crossword.png" alt="" height="400px">
+                      <img src="static/crossword.png" alt="Crossword example" height="400px">
                     </div>
                     <div class="modal-footer">
                       <button
@@ -1064,7 +1064,7 @@
               </div>
               <div class="row">
                 <div class="col-mb-3">
-                  <img src="static/logic.jpg" alt="" style="width: 250px;">
+                  <img src="static/logic.jpg" alt="Image of solving a puzzle" style="width: 250px;">
                 </div>
                 <div class="col-md-6 d-flex flex-column">
               <p>
@@ -1153,7 +1153,7 @@
               </div>
               <div class="row">
                 <div class="col-mb-3">
-                  <img src="static/minimax.png" alt="" style="width: 250px;">
+                  <img src="static/minimax.png" alt="Minimax example" style="width: 250px;">
                 </div>
                 <div class="col-md-6 d-flex flex-column">
               <p>
@@ -1240,7 +1240,7 @@
               </div>
               <div class="row">
                 <div class="col-mb-3">
-                  <img src="static/stocks.jpg" alt="" style="width: 250px;">
+                  <img src="static/stocks.jpg" alt="Bull vs Bear" style="width: 250px;">
                 </div>
                 <div class="col-md-6 d-flex flex-column">
               <p>
@@ -1330,7 +1330,7 @@
               </div>
               <div class="row">
                 <div class="col-mb-3">
-                  <img src="static/filter.jpeg" alt="" style="width: 250px;">
+                  <img src="static/filter.jpeg" alt="Filtered image" style="width: 250px;">
                 </div>
                 <div class="col-md-6 d-flex flex-column">
               <p>
@@ -1420,7 +1420,7 @@
               </div>
               <div class="row">
                 <div class="col-mb-3">
-                  <img src="static/spelling.jpg" alt="" style="width: 250px;">
+                  <img src="static/spelling.jpg" alt="Picture of letters" style="width: 250px;">
                 </div>
                 <div class="col-md-6 d-flex flex-column">
               <p>
@@ -1654,7 +1654,7 @@
           <ul class="fa-ul mb-0">
             <li>
               <i class="fa-li fab fa-python"></i>
-              FastAI
+              fast.ai
             </li>
             <li>
               <i class="fa-li fab fa-python"></i>
@@ -1726,7 +1726,7 @@
                 </div>
                 <div class="modal-body">
                   <p>
-                    I participated in the Hack The Future hackathon with a friend of mine (it was in teams of two). We competed in the Deep Learning & NLP challenge. The challenge got coached by <a href="https://brainjar.ai/" target="_blank">Brainjar</a> the same company where I did my internship. The assignment was to detect trolls in a dataset of Reddit comments. The comments were either fantasy or programming related. We used FastAI to make two classifiers. One to know to which category the comment belonged and one to predict the sentiment of the comment. If the comment had a lot of downvotes we knew it was a negative comment.
+                    I participated in the Hack The Future hackathon with a friend of mine (it was in teams of two). We competed in the Deep Learning & NLP challenge. The challenge got coached by <a href="https://brainjar.ai/" target="_blank">Brainjar</a> the same company where I did my internship. The assignment was to detect trolls in a dataset of Reddit comments. The comments were either fantasy or programming related. We used fast.ai to make two classifiers. One to know to which category the comment belonged and one to predict the sentiment of the comment. If the comment had a lot of downvotes we knew it was a negative comment.
                   </p>
                   <img src="static/htf.png" alt="Hack The Future image" width="500px">
                 </div>
